@@ -13,7 +13,7 @@ body .container-fluid {
   padding-right: unset;
 }
 body .container-fluid main .mainview {
-  background-image: url("/imgs/kitchenBackground.jpg");
+  background-image: url("/imgs/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -107,6 +107,23 @@ body .container-fluid main .mainview .slider .carousel-control-next, body .conta
 body .container-fluid main .mainview .slider .carousel-control-next-icon, body .container-fluid main .mainview .slider .carousel-control-prev-icon {
   width: 50px;
   height: 50px;
+}
+body .container-fluid main .recipes {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  transition: transform 0.5s ease;
+}
+body .container-fluid main .recipes .mb-3:hover {
+  transform: scale(1.3);
+  z-index: 1;
+}
+body .container-fluid main .recipes .g-0 .col-md8 .card-body .card-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /*# sourceMappingURL=style.css.map */
